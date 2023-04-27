@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Темная карта Яндекс</title>
+    <style>
+        /* Стили для контейнера карты */
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<!-- Контейнер для карты -->
+<div id="map"></div>
+
+<!-- Подключение скрипта API Яндекс Карт -->
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<!-- Подключение скрипта библиотеки Yandex.Mapkit Dark Mode -->
+<script src="https://cdn.jsdelivr.net/npm/@mapkit/mapkit@1.1.0/dist/mapkit.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // Создание карты
+    ymaps.ready(init);
+
+    function init() {
+        // Инициализация библиотеки Yandex.Mapkit Dark Mode
+        var darkMode = new mapkit.DarkMode();
+
+        // Создание карты с темной темой
+        var myMap = new ymaps.Map("map", {
+            center: [55.76, 37.64], // Координаты центра карты
+            zoom: 13, // Уровень масштабирования карты
+            controls: [] // Отключение стандартных элементов управления
+        }, {
+            // Опции карты
+            autoFitToViewport: 'always'
+        });
+
+        // Добавление метки на карту
+        var myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+            hintContent: 'Москва!',
+            balloonContent: 'Столица России'
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+</body>
+</html>

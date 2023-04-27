@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #111;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.search-wrapper label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+#search {
+    max-width: 30em;
+    height: 2.5rem;
+    background-color: #222;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+#search:focus {
+    background-color: #333;
+}
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+    margin-top: 3em;
+}
+.card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 1em;
+    display: grid;
+    gap: 0.25rem;
+}
+.name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card p {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+.hide {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 2em;
+    }
+}

@@ -1,0 +1,57 @@
+[
+{
+    "id": 1,
+    "name": "Nike",
+  "username": "Nike is an American multinational company specializing in sportswear and footwear. The headquarters is in the city of Beaverton (Oregon).Almost all Nike products are manufactured by third-party contractors outside the United States (mainly in Asia), the company itself is the copyright holder of trademarks, develops product design and owns a chain of stores (about 1,150 worldwide), as well as NikeTown shopping centers. Since September 20, 2013, it has been included in the Dow Jones Industrial Index. Nike is the most expensive sports brand in the world (according to Forbes)",
+    "email": "Foundation 1964"
+},
+ {
+"id": 2,
+"name": "Adidas",
+"username": "Adidas is a German multinational company producing sportswear, shoes and accessories. It is the largest sportswear manufacturer in Europe and the second largest in the world after Nike. This is the Adidas Group holding company, which includes Runtastic. The \"Three Stripes Brand\" is one of the largest sports companies in history. Adidas revenue for 2019 amounted to 23.640 billion euros.",
+"email": "Foundation 1949"
+
+},
+{
+"id": 3,
+"name": "Air Jordan",
+"username": "Air Jordan is a name brand developed by the American company Nike for the legendary basketball player Michael Jordan, also known as Jordans. The main focus is high—quality expensive basketball shoes and clothing. The brand also produces shoes for boxers, professional wrestlers, as well as American football players.\n\nJUMPMAN (English jumpman — literally, a jumping man) is the name of the logo that can be seen on all basketball products of the brand.",
+"email": "Foundation 1984"
+
+},
+{
+"id": 4,
+"name": "Puma",
+"username": "PUMA, is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories, which is headquartered in Herzogenaurach, Bavaria, Germany. Puma is the third largest sportswear manufacturer in the world.[5] The company was founded in 1948 by Rudolf Dassler (1898–1974). In 1924, Rudolf and his brother Adolf \"Adi\" Dassler had jointly formed the company Gebrüder Dassler Schuhfabrik ('Dassler Brothers Shoe Factory'). The relationship between the two brothers deteriorated until they agreed to split in 1948, forming two separate entities, Adidas and Puma.",
+"email": "Foundation 1948"
+
+
+},
+
+{
+"id": 5,
+"name": "New balance",
+"username": "New Balance Athletic Shoe, Inc. (NBAS), better known as New Balance (\"New Balance\") is an American sportswear manufacturer based in Brighton, one of the districts of Boston, Massachusetts, USA. The company was founded in 1906 as the \"New Balance Arch Support Company\" and has become one of the world's largest manufacturers of sportswear, shoes and equipment.\nUnlike most of its competitors in the market, New Balance has its own production facilities in the United States and the United Kingdom - brand policy does not allow the company to produce key and iconic models in Southeast Asia or Eastern Europe. Due to this policy, the price of a number of New Balance sneaker models is higher than that of similar models in the segment. To maintain a balance between price and quality, the company is constantly in creative search, actively using gel inserts, seamless screed technologies or organic materials in its models.",
+"email": "Foundation 1906"
+
+},
+{
+"id": 6,
+"name": "ReeBok",
+"username": "Reebok International Limited is an American company producing sportswear, shoes and accessories. The headquarters is located in Boston (Massachusetts). Since 2005, it has been a subsidiary of Adidas. Reebok manufactures and distributes sportswear for fitness, running and crossfit, including accessories and shoes. It is the official sponsor of shoes and clothing for CrossFit and Spartan Race.\nThe company was founded in 1958 as a partner of J. W. Foster and Sons, founded in 1895 in Bolton, England. From 1958 to 1986, all Reebok clothing was decorated with the flag of Great Britain, which is depicted on the \"classic\" Reebok clothing line to denote the English origin of the company.",
+"email": "Foundation 1895"
+
+},
+{
+"id": 7,
+"name": "Converse",
+"username": "Converse is an American lifestyle brand that markets, distributes, and licenses footwear, apparel, and accessories. Founded in 1908 as the Converse Rubber Shoe Company, it has been acquired by several companies before becoming a subsidiary of Nike, Inc. in 2003.Converse initially produced winterized rubber-soled shoes and boots. During World War II, it shifted manufacturing to make footwear for the military. Initially, it was one of the few producers of athletic shoes and dominated the U.S. market, but lost its position in the 1970s as competitors presented their styles.",
+"email": "Foundation 1908"
+},
+  {
+    "id": 8,
+    "name": "Vans",
+    "username": "Vans is an American manufacturer of skateboarding shoes and related apparel, established in Anaheim, California, and owned by VF Corporation. The company also sponsors surf, snowboarding, BMX, and motocross teams.From 1996 to 2019, the company was the primary sponsor of the annual Warped Tour music festival.",
+    "email": "Foundation 1966"
+  }
+]
